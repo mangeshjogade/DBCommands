@@ -1,0 +1,1 @@
+select *,UCASE(SUBSTR(word,1,1)) initial from words order by word;
